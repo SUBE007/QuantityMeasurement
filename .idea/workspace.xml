@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea0ecec4-caab-4c27-93f7-9ca360bfde32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/INCH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SUBE007.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SUBE007.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantitymeasure/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/FEET.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quantitymeasure/FEET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,33 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunManager">
+    <configuration name="QuantityTest.given1Feetand1Feet_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;quantitymeasure.QuantityTest.given1Feetand1Feet_ShouldReturnEqual&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.QuantityTest.given1Feetand1Feet_ShouldReturnEqual" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,9 +87,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586196842033" />
-    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586198019465">
+    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586200594498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586198019465" />
+    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586200594498" />
+    <state width="1310" height="160" key="GridCell.Tab.0.bottom" timestamp="1586198184152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
+    <state width="1310" height="160" key="GridCell.Tab.0.center" timestamp="1586198184152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
+    <state width="1310" height="160" key="GridCell.Tab.0.left" timestamp="1586198184152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
+    <state width="1310" height="160" key="GridCell.Tab.0.right" timestamp="1586198184152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
+    <state x="365" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586200329120">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="365" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1586200329120" />
   </component>
 </project>
