@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class QuantityTest {
     Length value;
-    double inch,inch1,inch2,feet1,feet2,cm1,cm2, length1, length2,feet,yard;
+    double inch,inch1,inch2,feet1,feet2,feet,yard,cm1,cm2;
 
     @Before
     public void setUp() throws Exception {
@@ -157,5 +157,34 @@ public class QuantityTest {
         inch = value.unitConvertor(Length.ConversionOfUnitType.INCH, 36);
          Assert.assertEquals(inch, yard, 0.0);
     }
+
+    @Test
+    public void given0Centimeterand0Centimeter_ShouldReturnEqual() {
+        cm1 = value.unitConvertor(Length.ConversionOfUnitType.CENTIMETER, 0);
+        cm2 = value.unitConvertor(Length.ConversionOfUnitType.CENTIMETER, 0);
+        Assert.assertEquals(cm1,cm2,0.0);
+    }
+
+    @Test
+    public void given0Centimeterand1Centimeter_ShouldReturnNotEqual() {
+        cm1 = value.unitConvertor(Length.ConversionOfUnitType.CENTIMETER, 0);
+        cm2 = value.unitConvertor(Length.ConversionOfUnitType.CENTIMETER, 1);
+        Assert.assertNotEquals(cm1,cm2,0.0);
+    }
+
+    @Test
+    public void given2Inchand5Centimeter_ShouldReturnEqual() {
+        inch = value.unitConvertor(Length.ConversionOfUnitType.INCH, 2);
+        cm1 = value.unitConvertor(Length.ConversionOfUnitType.CENTIMETER, 5);
+        Assert.assertEquals(inch,cm1,0.0);
+    }
+
+    @Test
+    public void givenCentimeterNull_ShouldReturnEqual() {
+        boolean nullCheck = value.equals(null);
+        Assert.assertEquals(true,nullCheck);
+    }
+
+
 
 }

@@ -4,7 +4,8 @@ public class Length {
     public enum ConversionOfUnitType {
         FEET(1*12.0),
         INCH(1.0),
-        YARD(1*36.0);
+        YARD(1*36.0), CENTIMETER(1/2.5);
+
 
         public Double type;
         ConversionOfUnitType(Double type){

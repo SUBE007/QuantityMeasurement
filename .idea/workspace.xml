@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea0ecec4-caab-4c27-93f7-9ca360bfde32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/Quantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/SUBE007.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/SUBE007.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantitymeasure/FEET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/quantitymeasure/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/Length.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,10 +85,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1586196842033" />
-    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586200594498">
+    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586202253037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586200594498" />
+    <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586202253037" />
     <state width="1310" height="160" key="GridCell.Tab.0.bottom" timestamp="1586198184152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
