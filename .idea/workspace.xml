@@ -6,21 +6,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/quantitymeasure/Length.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/quantitymeasure/Length.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/quantitymeasure/QuantityTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/quantitymeasure/QuantityTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/quantitymeasure.QuantityTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/quantitymeasure.QuantityTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/quantitymeasure.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/quantitymeasure.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-quantitymeasure.QuantityTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-quantitymeasure.QuantityTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/quantitymeasure/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/Length.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +27,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +62,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.QuantityTest">
+  <component name="RunManager" selected="Gradle.QuantityTest.given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres">
     <configuration name="QuantityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -98,12 +103,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given1Feetand1Feet_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given1GallonAndThreePointSeventyEightLitres_ShouldReturnEqualSevenPointFiftySevenLitres" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantitymeasure.QuantityTest.given1Feetand1Feet_ShouldReturnEqual&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantitymeasure.QuantityTest.given1GallonAndThreePointSeventyEightLitres_ShouldReturnEqualSevenPointFiftySevenLitres&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -118,12 +123,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="QuantityTest.given2InchAnd2Inch_ShouldReturnEqualFourInches" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="QuantityTest.given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;quantitymeasure.QuantityTest.given2InchAnd2Inch_ShouldReturnEqualFourInches&quot;" />
+        <option name="scriptParameters" value="--tests &quot;quantitymeasure.QuantityTest.given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -160,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityTest.given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres" />
+        <item itemvalue="Gradle.QuantityTest.given1GallonAndThreePointSeventyEightLitres_ShouldReturnEqualSevenPointFiftySevenLitres" />
         <item itemvalue="Gradle.QuantityTest" />
         <item itemvalue="Gradle.QuantityTest.givenGallonNull_WhenEqual_ShouldReturnTrue" />
         <item itemvalue="Gradle.QuantityTest.given0GallonAnd0Gallon_ShouldReturnEqual" />
-        <item itemvalue="Gradle.QuantityTest.given2InchAnd2Inch_ShouldReturnEqualFourInches" />
-        <item itemvalue="Gradle.QuantityTest.given1Feetand1Feet_ShouldReturnEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -190,22 +195,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586202253037" />
-    <state width="1310" height="396" key="GridCell.Tab.0.bottom" timestamp="1586237775288">
+    <state width="1310" height="111" key="GridCell.Tab.0.bottom" timestamp="1586238374711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="396" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586237775288" />
-    <state width="1310" height="396" key="GridCell.Tab.0.center" timestamp="1586237775287">
+    <state width="1310" height="111" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586238374711" />
+    <state width="1310" height="111" key="GridCell.Tab.0.center" timestamp="1586238374711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="396" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586237775287" />
-    <state width="1310" height="396" key="GridCell.Tab.0.left" timestamp="1586237775287">
+    <state width="1310" height="111" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586238374711" />
+    <state width="1310" height="111" key="GridCell.Tab.0.left" timestamp="1586238374711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="396" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586237775287" />
-    <state width="1310" height="396" key="GridCell.Tab.0.right" timestamp="1586237775288">
+    <state width="1310" height="111" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586238374711" />
+    <state width="1310" height="111" key="GridCell.Tab.0.right" timestamp="1586238374711">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="396" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586237775288" />
+    <state width="1310" height="111" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586238374711" />
     <state x="365" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586200329120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

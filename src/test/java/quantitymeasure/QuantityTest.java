@@ -84,12 +84,28 @@ public class QuantityTest {
         Assert.assertEquals(true,nullCheck);
     }
     @Test
-    public void given1GallonAndThreePointSeventyEightLitres_ShouldReturnEqual() {
+    public void given1GallonAnd3Point78Litres_ShouldReturnEqual() {
         gallon = length1.unitConvertor(Length.UnitConversionType.GALLON, 1);
         litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 3.78);
         Assert.assertEquals(litre,gallon,0.0);
     }
 
+    //addition of two volume
+    @Test
+    public void given1GallonAnd3point785Litres_ShouldReturnEqualSevenPointFiftySevenLitres() {
+        gallon = length1.unitConvertor(Length.UnitConversionType.GALLON, 1);
+        litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 3.785);
+        litre=gallon+litre;
+        Assert.assertEquals(7.5649999999999995,litre,0.0);
+    }
+
+    @Test
+    public void given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres() {
+        litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 1);
+        millilitre = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 1000);
+        litre=litre+millilitre;
+        Assert.assertEquals(2,litre,0.0);
+    }
 
 
 

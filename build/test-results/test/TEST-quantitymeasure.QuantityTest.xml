@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="quantitymeasure.QuantityTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-04-07T05:36:05" hostname="SUBE-DELL" time="0.085">
+<testsuite name="quantitymeasure.QuantityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-07T05:46:16" hostname="SUBE-DELL" time="0.004">
   <properties/>
-  <testcase name="givenGallonNull_WhenEqual_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.002"/>
-  <testcase name="given0MillilitreAnd1Millilitre_ShouldReturnNotEqual" classname="quantitymeasure.QuantityTest" time="0.002"/>
-  <testcase name="given0LitreAnd1Litre_ShouldReturnNotEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1LitreAnd1000Millilitre_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="givenLitreNull_WhenEqual_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.035"/>
-  <testcase name="given0GallonAnd1Gallon_ShouldReturnNotEqual" classname="quantitymeasure.QuantityTest" time="0.002"/>
-  <testcase name="given0MillilitreAnd0Millilitre_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.004"/>
-  <testcase name="given0LitreAnd0Litre_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.003"/>
-  <testcase name="givenMillilitreNull_WhenEqual_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.002"/>
-  <testcase name="given0GallonAnd0Gallon_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.003"/>
-  <testcase name="given1GallonAndThreePointSeventyEightLitres_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.002"/>
+  <testcase name="given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres" classname="quantitymeasure.QuantityTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
