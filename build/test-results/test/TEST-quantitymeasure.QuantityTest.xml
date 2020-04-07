@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="quantitymeasure.QuantityTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-04-07T04:40:24" hostname="SUBE-DELL" time="0.021">
+<testsuite name="quantitymeasure.QuantityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-07T05:03:14" hostname="SUBE-DELL" time="0.003">
   <properties/>
-  <testcase name="given1Feetand1Inch_ShouldReturnNotEqualLength" classname="quantitymeasure.QuantityTest" time="0.007"/>
-  <testcase name="givenFeetObject_WhenEqual_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1Inchand1Inch_ShouldReturnEqualLength" classname="quantitymeasure.QuantityTest" time="0.002"/>
-  <testcase name="givenType_WhenEqual_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.001"/>
-  <testcase name="given1Feetand1Feet_WhenCompared_ShouldReturnEqualLength" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1Feetand1Feet_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given0Inchand1Inch_ShouldReturnNotEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given0Inchand0Inch_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="givenOnNullValue_ShouldReturnFalse" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1Feetand1Inch_ShouldReturnNotEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1Inchand1Feet_ShouldReturnNotEqualLength" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given3Feetand12Inch_ShouldReturnFalse" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given0Feetand1Feet_ShouldReturnNotEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1Inchand1Inch_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given1Feetand12Inch_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given12Inchand1Feet_ShouldReturnTrue" classname="quantitymeasure.QuantityTest" time="0.0"/>
-  <testcase name="given0Feetand0Feet_ShouldReturnEqual" classname="quantitymeasure.QuantityTest" time="0.001"/>
+  <testcase name="given2InchAnd2Inch_ShouldReturnEqualFourInches" classname="quantitymeasure.QuantityTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
