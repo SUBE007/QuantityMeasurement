@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea0ecec4-caab-4c27-93f7-9ca360bfde32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/quantitymeasure/Length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/quantitymeasure/Length.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/quantitymeasure/QuantityTest.java" afterDir="false" />
@@ -40,7 +41,27 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.QuantityTest">
+    <configuration name="QuantityTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;quantitymeasure.QuantityTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="QuantityTest.given1Feetand1Feet_ShouldReturnEqual" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -63,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.QuantityTest" />
         <item itemvalue="Gradle.QuantityTest.given1Feetand1Feet_ShouldReturnEqual" />
       </list>
     </recent_temporary>
@@ -89,22 +111,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="361" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1586202253037" />
-    <state width="1310" height="160" key="GridCell.Tab.0.bottom" timestamp="1586198184152">
+    <state width="1310" height="260" key="GridCell.Tab.0.bottom" timestamp="1586234433071">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="160" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
-    <state width="1310" height="160" key="GridCell.Tab.0.center" timestamp="1586198184152">
+    <state width="1310" height="260" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586234433071" />
+    <state width="1310" height="260" key="GridCell.Tab.0.center" timestamp="1586234433070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="160" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
-    <state width="1310" height="160" key="GridCell.Tab.0.left" timestamp="1586198184152">
+    <state width="1310" height="260" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586234433070" />
+    <state width="1310" height="260" key="GridCell.Tab.0.left" timestamp="1586234433069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="160" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
-    <state width="1310" height="160" key="GridCell.Tab.0.right" timestamp="1586198184152">
+    <state width="1310" height="260" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586234433069" />
+    <state width="1310" height="260" key="GridCell.Tab.0.right" timestamp="1586234433070">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1310" height="160" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586198184152" />
+    <state width="1310" height="260" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586234433070" />
     <state x="365" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1586200329120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
