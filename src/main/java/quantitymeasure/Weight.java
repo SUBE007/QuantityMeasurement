@@ -1,13 +1,14 @@
 package quantitymeasure;
 
-public class Length {
+public class Weight {
     public enum UnitConversionType {
-        FEET(1*12.0),
+        FEET(1 * 12.0),
         INCH(1.0),
-        YARD(1*36.0), CENTIMETER(1/2.5),
-        GALLON(1*3.78),
+        YARD(1 * 36.0), CENTIMETER(1 / 2.5),
+        GALLON(1 * 3.78),
         LITRE(1.0),
-        MILLILITRE(1/1000.0);
+        MILLILITRE(1 / 1000.0),
+        TONNE(1*1000.0), KILOGRAMS(1.0), GRAMS(1/1000.0);
 
 
         public Double type;
@@ -26,7 +27,7 @@ public class Length {
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return true;
-        Length feet = (Length) obj;
+        Weight feet = (Weight) obj;
         return false;
     }
 }

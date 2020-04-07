@@ -5,108 +5,96 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class QuantityTest {
-    Length length1;
-    double inch,inch1,inch2,feet1,feet2,feet,yard,cm1,cm2,volume1,volume2,gallon,litre,millilitre;
-
+    Weight weight;
+    //double inch,inch1,inch2,feet1,feet2,feet,yard,cm1,cm2;
+    //double volume1,volume2,gallon,litre,millilitre;
+    double weight2,kilograms,grams,tonne,weight1;
     @Before
     public void setUp() throws Exception {
-        length1 = new Length();
+        weight = new Weight();
     }
 
-//Volume compare
-   @Test
-   public void given0GallonAnd0Gallon_ShouldReturnEqual() {
-       volume1 = length1.unitConvertor(Length.UnitConversionType.GALLON, 0);
-       volume2 = length1.unitConvertor(Length.UnitConversionType.GALLON, 0);
-       Assert.assertEquals(volume1,volume2,0.0);
-   }
+//Weight compare
+@Test
+public void given0KilogramAnd0Kilograms_ShouldReturnEqual() {
+    weight1 = weight.unitConvertor(Weight.UnitConversionType.KILOGRAMS, 0);
+    weight2 = weight.unitConvertor(Weight.UnitConversionType.KILOGRAMS, 0);
+    Assert.assertEquals(weight1,weight2,0.0);
+}
 
     @Test
-    public void given0GallonAnd1Gallon_ShouldReturnNotEqual() {
-        volume1 = length1.unitConvertor(Length.UnitConversionType.GALLON, 0);
-        volume2 = length1.unitConvertor(Length.UnitConversionType.GALLON, 1);
-        Assert.assertNotEquals(volume1,volume2,0.0);
-    }
-
-    @Test
-    public void givenGallonNull_WhenEqual_ShouldReturnTrue() {
-        boolean nullCheck = length1.equals(null);
-        Assert.assertEquals(true,nullCheck);
+    public void given0KilogramAnd1Kilograms_ShouldReturnNotEqual() {
+        weight1 = weight.unitConvertor(Weight.UnitConversionType.KILOGRAMS, 0);
+        weight2 = weight.unitConvertor(Weight.UnitConversionType.KILOGRAMS, 1);
+        Assert.assertNotEquals(weight1,weight2,0.0);
     }
 
     @Test
-    public void given0LitreAnd0Litre_ShouldReturnEqual() {
-        volume1 = length1.unitConvertor(Length.UnitConversionType.LITRE, 0);
-        volume2 = length1.unitConvertor(Length.UnitConversionType.LITRE, 0);
-        Assert.assertEquals(volume1,volume2,0.0);
+    public void givenKilogramNull_WhenNull_ShouldReturnTrue() {
+        boolean nullCheck = weight.equals(null);
+        Assert.assertTrue(nullCheck);
     }
 
     @Test
-    public void given0LitreAnd1Litre_ShouldReturnNotEqual() {
-        volume1 = length1.unitConvertor(Length.UnitConversionType.LITRE, 0);
-        volume2 = length1.unitConvertor(Length.UnitConversionType.LITRE, 1);
-        Assert.assertNotEquals(volume1,volume2,0.0);
+    public void given0GramAnd0Grams_ShouldReturnEqual() {
+        weight1 = weight.unitConvertor(Weight.UnitConversionType.GRAMS, 0);
+        weight2 = weight.unitConvertor(Weight.UnitConversionType.GRAMS, 0);
+        Assert.assertEquals(weight1,weight2,0.0);
     }
 
     @Test
-    public void given0MillilitreAnd0Millilitre_ShouldReturnEqual() {
-        volume1 = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 0);
-        volume2 = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 0);
-        Assert.assertEquals(volume1,volume2,0.0);
+    public void given0GramAnd1Grams_ShouldReturnEqual() {
+        weight1 = weight.unitConvertor(Weight.UnitConversionType.GRAMS, 0);
+        weight2 = weight.unitConvertor(Weight.UnitConversionType.GRAMS, 1);
+        Assert.assertNotEquals(weight1,weight2,0.0);
     }
 
     @Test
-    public void givenLitreNull_WhenEqual_ShouldReturnTrue() {
-        boolean nullCheck = length1.equals(null);
-        Assert.assertEquals(true,nullCheck);
+    public void givenGramNull_WhenNull_ShouldReturnTrue() {
+        boolean nullCheck = weight.equals(null);
+        Assert.assertTrue(nullCheck);
     }
 
     @Test
-    public void given1LitreAnd1000Millilitre_ShouldReturnEqual() {
-        litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 1);
-        millilitre = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 1000);
-        Assert.assertEquals(millilitre,litre,0.0);
-
-    }
-
-
-
-    @Test
-    public void given0MillilitreAnd1Millilitre_ShouldReturnNotEqual() {
-        volume1 = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 0);
-        volume2 = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 1);
-        Assert.assertNotEquals(volume1,volume2,0.0);
+    public void given0TonneAnd0Tonne_ShouldReturnEqual() {
+        weight1 = weight.unitConvertor(Weight.UnitConversionType.TONNE, 0);
+        weight2 = weight.unitConvertor(Weight.UnitConversionType.TONNE, 0);
+        Assert.assertEquals(weight1,weight2,0.0);
     }
 
     @Test
-    public void givenMillilitreNull_WhenEqual_ShouldReturnTrue() {
-        boolean nullCheck = length1.equals(null);
-        Assert.assertEquals(true,nullCheck);
-    }
-    @Test
-    public void given1GallonAnd3Point78Litres_ShouldReturnEqual() {
-        gallon = length1.unitConvertor(Length.UnitConversionType.GALLON, 1);
-        litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 3.78);
-        Assert.assertEquals(litre,gallon,0.0);
-    }
-
-    //addition of two volume
-    @Test
-    public void given1GallonAnd3point785Litres_ShouldReturnEqualSevenPointFiftySevenLitres() {
-        gallon = length1.unitConvertor(Length.UnitConversionType.GALLON, 1);
-        litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 3.785);
-        litre=gallon+litre;
-        Assert.assertEquals(7.5649999999999995,litre,0.0);
+    public void given0TonneAnd1Tonne_ShouldReturnNotEqual() {
+        weight1 = weight.unitConvertor(Weight.UnitConversionType.TONNE, 0);
+        weight2 = weight.unitConvertor(Weight.UnitConversionType.TONNE, 1);
+        Assert.assertNotEquals(weight1,weight2,0.0);
     }
 
     @Test
-    public void given1LitreAnd1000Millilitre_ShouldReturnEqualTwoLitres() {
-        litre = length1.unitConvertor(Length.UnitConversionType.LITRE, 1);
-        millilitre = length1.unitConvertor(Length.UnitConversionType.MILLILITRE, 1000);
-        litre=litre+millilitre;
-        Assert.assertEquals(2,litre,0.0);
+    public void givenTonneNull_WhenNull_ShouldReturnTrue() {
+        boolean nullCheck = weight.equals(null);
+        Assert.assertTrue(nullCheck);
     }
 
+    @Test
+    public void given1KilogramAnd1000Grams_ShouldReturnEqual() {
+        kilograms = weight.unitConvertor(Weight.UnitConversionType.KILOGRAMS, 1);
+        grams = weight.unitConvertor(Weight.UnitConversionType.GRAMS, 1000);
+        Assert.assertEquals(grams,kilograms,0.0);
+    }
 
+    @Test
+    public void given1TonneAnd1000Kilograms_ShouldReturnEqual() {
+        tonne = weight.unitConvertor(Weight.UnitConversionType.TONNE, 1);
+        kilograms = weight.unitConvertor(Weight.UnitConversionType.KILOGRAMS, 1000.0);
+        Assert.assertEquals(tonne,kilograms,0.0);
+    }
+//Addition
+    @Test
+    public void given1TonneAnd1000Grams_ShouldReturnEqualToThousandAndOneKilograms() {
+        tonne = weight.unitConvertor(Weight.UnitConversionType.TONNE, 1);
+        grams = weight.unitConvertor(Weight.UnitConversionType.GRAMS, 1000.0);
+        double kilograms = tonne + grams;
+        Assert.assertEquals(1001, kilograms, 0.0);
+    }
 
 }
